@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;1,300;1,400;1,700;1,900&family=Roboto:wght@500;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;1,300;1,400;1,700;1,900&family=Roboto+Slab:wght@300&family=Roboto:wght@100;300;500;900&family=Source+Code+Pro:wght@300;400&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.sidebar{
+    background-color: rgb(214, 212, 212);
+    width: 434px;
+    height: 100vh;
+    font-family: 'Lato', sans-serif;
+font-family: 'Roboto', sans-serif;
+}
+
+    .sidebar nav{
+        padding: 2px;
+    }
+.sidebar nav li{
+    list-style: none;
+    font-size: 18px;
+    padding: 20px;
+}
+.sidebar nav li a{
+    text-decoration: none;
+    color: black;
+}
+
+.main{
+    /* background-color: yellow; */
+    width: 90vw;
+    height: 100vh;
+}
+.container{
+    display: flex;
+}
+.info_container{
+      background-color: rgb(184, 221, 18);
+      height: 58vh;
+      width: 80vw;
+      margin: 69px;
+      display: flex;
+      justify-content: space-around;
+}
+.devInfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+.hello{
+    font-size: 55px;
+    font-family: 'Lato', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Slab', serif;
+font-family: 'Source Code Pro', monospace;
+}
+.name{
+    font-size: 40px;
+    font-weight: bold;
+}
+.about{
+    font-size: 25px;
+    font-family: 'Lato', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Slab', serif;
+font-family: 'Source Code Pro', monospace;
+}
+.moreabout{
+    margin-top: 20px;
+    font-size: 20px;
+    font-family: 'Lato', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Slab', serif;
+font-family: 'Source Code Pro', monospace;
+}
+.buttons{
+    margin-top: 34px;
+}
+.btn{
+    padding: 9px 14px;
+  border-radius: 23px;
+  color: white;
+  background-color: #6342f8;
+  font-weight: bold;
+  font-size: 17px;
+  margin: 0 3px;
+  cursor: pointer;
+
+}
+.btn-sm{
+    font-size: 11px;
+    padding: 10px 19px;
+    margin: 2px 0;
+}
+.btn:hover{
+    background-color: white;
+    color: #6342f8;
+
+}
+
+.devpic img{
+    height: 58vh;
+}
+.contactform{
+    padding: 0 34px;
+    padding-top: 144px;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Slab', serif;
+    font-family: 'Source Code Pro', monospace;
+    font-size: smaller;
+}
+.contactform h1{
+    font-family: 'Lato', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-size: x-large;
+}
+.contactform form{
+    padding: 8px;
+}
+.contactform form div{
+    padding: 5px 0;
+    
+  }
+.contactform form div input{
+    display: flex;
+    flex-direction: column;
+    width: 24vw;
+    border-block: groove;
+    border-radius: 5px;
+    padding: 1px;
+    margin: 2px 0 0 0;
+  }
+#emailHelp{
+  font-size: 10px;
+  color: rgb(228, 9, 9);
+  margin: 0 5px;
+}
+#form-check{
+  flex-direction: row; 
+  display: flex; 
+}
+#form-check input{
+ width: 24px;
+ margin: 3px 0;
+}
+.info_container1{
+    background-color: rgb(221, 18, 96);
+    height: 75vh;
+    width: 80vw;
+    margin: 69px;
+    display: flex;
+    justify-content: left;
+}
+.contactform1{
+    padding: 0 34px;
+    padding-top: 144px;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Slab', serif;
+    font-family: 'Source Code Pro', monospace;
+    font-size: medium;
+}
+.info_container2{
+    background-color: rgb(172, 132, 235);
+    height: 58vh;
+    width: 80vw;
+    margin: 69px;
+    display: flex;
+    justify-content: space-around;
+}
+.info_container2 h2{
+    justify-content: top;
+}
+
